@@ -2,11 +2,11 @@
 
  Project Workflow (step-by-step)
  
-	1.	Upload receptor (PDBQT) & ligands (CSV)
+	1.	Uploaded receptor (PDBQT) & ligands (CSV)
  
-	•	Upload your target protein structure (target.pdbqt).
+	•	target protein structure (target.pdbqt).
  
-	•	Upload your ligand library (library.smi, ~500 ligands csv format).
+	•	Dataset of ligand library (library.smi, ~500 ligands csv format).
  
 	2.	Protein preparation
  
@@ -18,11 +18,11 @@
  
 	•	Read .csv file.
  
-	•	Generate 3D conformations with RDKit.
+	•	Generated 3D conformations with RDKit.
  
-	•	Energy minimize (UFF).
+	•	Energy minimized (UFF).
  
-	•	Convert to .pdbqt using OpenBabel.
+	•	Converted to .pdbqt using OpenBabel.
  
 	4.	Docking with AutoDock Vina
  
@@ -38,4 +38,4 @@
  
 	•	Applied Lipinski’s Rule of 5 filters (MW, LogP, HBD, HBA).
  
-	•	Save results to CSV (top_hits.csv).
+	•	Saved results to CSV (top_hits.csv).
